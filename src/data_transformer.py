@@ -28,4 +28,3 @@ X_test_prep.to_csv('../data/processed/x_test_set.csv')
 y_test.to_csv('../data/processed/y_test.csv')
 X_val_prep.to_csv('../data/processed/x_val_set.csv')
 y_val.to_csv('../data/processed/y_val.csv')
-

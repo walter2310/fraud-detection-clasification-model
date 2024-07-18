@@ -13,7 +13,6 @@ numeric_pipeline = Pipeline([
     ('robust_scaler', RobustScaler()),
 ])
 
-
 # Transformador que prepara todo el conjunto de datos llamando pipelines y transformadores personalizados
 class DataFramePreparer(BaseEstimator, TransformerMixin):
     def __init__(self):
